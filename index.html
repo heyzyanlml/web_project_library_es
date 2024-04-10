@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biblioteca Triple Peaks</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body>
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo.svg"
+            alt="Logotipo de la Biblioteca Triple Peaks"
+            class="nav__logo"
+          />
+          <!-- Lista de enlaces de menú -->
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#staff"
+                >Los preferidos de nuestro staff</a
+              >
+            </li>
+            <li>
+              <a href="#Events" class="nav__link">Eventos</a>
+            </li>
+            <li>
+              <a href="#" class="nav__link">Conviértete en miembro</a>
+            </li>
+            <li>
+              <a href="#" class="nav__link">Contactos</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__content">
+          <div>
+            <h1 class="header__title">
+              Bienvenidos a la biblioteca Triple Peaks
+            </h1>
+            <p class="header__description">
+              ¡Nos complace abrir las puertas de nuestra biblioteca a todos! Ven
+              y amplía tus conocimientos sobre desarrollo, o simplemente ven a
+              trabajar o estudiar con nosotros. ¡Este es un lugar genial para
+              estudiantes!
+            </p>
+          </div>
+          <img
+            src="./images/inside_the_library.png"
+            alt="Ilustración 'Dentro de la biblioteca'"
+            class="header__image"
+          />
+        </div>
+        <div class="header__footer">
+          <p class="header__address">Triple Peaks, 200 Success Avenue</p>
+        </div>
+      </header>
+      <main class="content">
+        <section class="staff" id="staff">
+          <h2 class="staff__title">Los preferidos de nuestros lectores</h2>
+          <p class="staff__subtitle">Que nuestros lectores y lectoras aman</p>
+          <!-- Lista de tarjetas -->
+          <ul class="staff__cards">
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Sapiens: De animales a dioses</h3>
+                <p class="card__text">
+                  ¡Prepárate para un viaje extraordinario a través de la
+                  historia de la humanidad! Este fascinante libro, nos lleva de
+                  la mano a través de los pasillos del tiempo, desde nuestros
+                  humildes comienzos como simples criaturas hasta convertirnos
+                  en los gobernantes indiscutibles del mundo. ¿Qué nos hace tan
+                  diferentes de cualquier otra especie?
+                </p>
+                <p class="card__footer">Yuval Noah Harar</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Harry Potter y la Piedra Filosofal</h3>
+                <p class="card__text">
+                  ¡Bienvenidos, Muggles! Este libro marca el inicio de la
+                  legendaria historia de Harry Potter, llevándonos desde su
+                  encuentro con el mundo mágico hasta su ingreso en Hogwarts.
+                  Con misterio, emoción y descubrimientos, este libro nos
+                  sumerge en una aventura que dejará una marca indeleble en la
+                  cultura popular. Es el primer paso en un viaje inolvidable que
+                  te llevará a lugares más allá de tu imaginación. ¡Prepárate
+                  para vivir la magia desde el principio y dejarte llevar por la
+                  fascinante historia del niño que vivió!
+                </p>
+                <p class="card__footer">J.K. Rowling.</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">La biblioteca de la medianoche</h3>
+                <p class="card__text">
+                  Si quieres sumergirte en una historia que te haga reflexionar
+                  sobre la vida y el valor de cada momento, entonces este es el
+                  libro perfecto para ti. Imagina una noche de Navidad, una
+                  mujer al borde del abismo, y una biblioteca ambulante que
+                  aparece de la nada. A través de las páginas de este libro, te
+                  embarcarás en un viaje emocionante lleno de segundas
+                  oportunidades, amistades inesperadas y la búsqueda del
+                  verdadero significado de la vida. Este libro te hará reír,
+                  llorar y reflexionar sobre lo que realmente importa en la
+                  vida. ¡No te lo puedes perder!
+                </p>
+                <p class="card__footer">Matt Haig</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">
+                  El sutil arte de que te importe un carajo
+                </h3>
+                <p class="card__text">
+                  ¿Quieres dejar de agobiarte por cosas que no valen la pena?
+                  Este libro te da una bofetada en la cara y te dice: "Hey,
+                  relájate y disfruta un poco más la vida". Con consejos sin
+                  filtro y un tono relajado, Mark Manson te ayuda a dejar de
+                  tomarte todo tan en serio y empezar a vivir con más
+                  autenticidad y menos estrés. ¡Prepárate para una lectura que
+                  te hará sonreír y abrazar cada día con más confianza y menos
+                  estrés.
+                </p>
+                <p class="card__footer">Mark Manson</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="events" id="Events">
+          <div class="events__content">
+            <h2 class="events__heading">Próximos eventos:</h2>
+            <h3 class="events__title">
+              En honor de Joan Feynman: mujeres en la astrofísica
+            </h3>
+            <div class="event-info events__info-section">
+              <div class="event-info__item">
+                <img
+                  src="./images/icon_calendar.svg"
+                  alt="Calendar icon"
+                  class="event-info__icon"
+                />
+                <p class="event-info__text">Lunes 12 de enero</p>
+              </div>
+              <div class="event-info__item">
+                <img
+                  src="./images/icon_pin.svg"
+                  alt="Pin icon"
+                  class="event-info__icon"
+                />
+                <p class="event-info__text">
+                  Sala de conferencias y virtual de la biblioteca Triple Peaks
+                </p>
+              </div>
+            </div>
+            <p class="events__description">
+              En este evento, en el que celebramos el nombre de nuestra
+              biblioteca, nuestra invitada nos llevará a través de un viaje para
+              conocer a algunas de las mujeres investigadoras más importantes en
+              el mundo de la ciencia espacial. Es fácil caer en la falsa idea de
+              que este campo está principalmente dominado por hombres, pero
+              nuestra conferencia busca cambiar esa noción y probar que no ha
+              sido así desde, al menos, el siglo XVII.
+            </p>
+            <a href="#" class="events__more">Más eventos &rarr;</a>
+          </div>
+          <div class="events__cover">
+            <img
+              src="./images/cafe.png"
+              alt="Event Cover Coffee Image"
+              class="events__image"
+            />
+            <div class="person person_name_feynman">
+              <p class="person__caption">Joan Feynman</p>
+              <img
+                src="./images/person_feynman.png"
+                alt="Joan Feynman photo"
+                class="person__image person__image_size_l"
+              />
+            </div>
+            <div class="person person_name_burbidge">
+              <p class="person__caption">Margaret Burbidge</p>
+              <img
+                src="./images/person_burbidge.png"
+                alt="Margaret Burbidge photo"
+                class="person__image person__image_size_m"
+              />
+            </div>
+            <div class="person person_name_cannon">
+              <img
+                src="./images/person_cannon.png"
+                alt="Annie Jump Cannon photo"
+                class="person__image person__image_size_m"
+              />
+              <p class="person__caption">Annie Jump Cannon</p>
+            </div>
+            <div class="person person_name_mitchell">
+              <img
+                src="./images/person_mitchell.png"
+                alt="Maria Mitchell photo"
+                class="person__image person__image_size_s"
+              />
+              <p class="person__caption">Maria Mitchell</p>
+            </div>
+            <div class="person person_name_tarter">
+              <p class="person__caption">Jill Tarter</p>
+              <img
+                src="./images/person_tarter.png"
+                alt="Jill Tarter photo"
+                class="person__image person__image_size_m"
+              />
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
