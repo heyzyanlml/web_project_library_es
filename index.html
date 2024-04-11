@@ -29,10 +29,10 @@
               <a href="#events" class="nav__link">Eventos</a>
             </li>
             <li>
-              <a href="#" class="nav__link">Conviértete en miembro</a>
+              <a href="#membership" class="nav__link">Conviértete en miembro</a>
             </li>
             <li>
-              <a href="#" class="nav__link">Contactos</a>
+              <a href="#footer" class="nav__link">Contactos</a>
             </li>
           </ul>
         </nav>
@@ -221,7 +221,118 @@
             </div>
           </div>
         </section>
+        <section class="membership" id="membership">
+          <h2 class="membership__title">
+            ¡Convertirse en miembro es muy fácil!
+          </h2>
+          <ul class="membership__steps">
+            <li class="step">
+              <h3 class="step__title">
+                Paso 1
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Completa el formulario de afiliación en línea o en persona.
+              </p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Paso 2
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Ven y recoge tu credencial de la biblioteca en la recepción.
+              </p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Paso 3
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">Firma el envés de la tarjeta.</p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Paso 4
+                <img
+                  src="./images/icon_step_finish.svg"
+                  alt="icon finish"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                ¡Disfruta de los increíbles beneficios de nuestra membresía!
+              </p>
+            </li>
+          </ul>
+        </section>
       </main>
+      <!--- Inicio Footer de página --->
+      <footer class="footer" id="footer">
+        <!--- Envoltorio de las 3 columnas de logo, horarios y redes sociales --->
+        <div class="footer__columns">
+          <!--- Primera Columna, contiene el logo del footer --->
+          <div class="footer__column">
+            <img
+              class="footer__logo"
+              src="./images/logo_white.svg"
+              alt="footer logo"
+            />
+          </div>
+
+          <!--- Segunda columna, contiene el horario --->
+          <div class="footer__column footer__column_content_hours">
+            <h2 class="footer__column-heading">Horario de apertura</h2>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                Lunes a viernes: 9 a.m. — 8 p.m.
+              </li>
+              <li class="footer__list-item">
+                Sábados y domingos: 10 a.m. — 6 p.m.
+              </li>
+            </ul>
+          </div>
+
+          <!--- Tercera columna, contiene las redes sociales --->
+          <div class="footer__column footer__column_content_social">
+            <h2 class="footer__column-heading">Redes sociales</h2>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a class="footer__column-link" href="#">
+                  <img
+                    class="footer__social-icon"
+                    src="./images/facebook_white.svg"
+                    alt="logo Facebook"
+                  />Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__column-link" href="#">
+                  <img
+                    class="footer__social-icon"
+                    src="./images/instagram_white.svg"
+                    alt="logo Instagram"
+                  />Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--- Texto de derechos de autor --->
+        <p class="footer__copyright">© 2024 Zyan Chávez</p>
+      </footer>
     </div>
   </body>
 </html>
