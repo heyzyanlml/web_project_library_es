@@ -338,19 +338,21 @@
   box-sizing: border-box;
   background-color: #1f1f1f;
   color: #fff;
+  padding: 60px 80px;
 }
 
 .footer__columns {
   display: flex;
-  padding: 60px 80px 0;
 }
 
 .footer__column_content_hours {
-  margin: 0 40px 0 auto;
+  /*margin: 0 40px 0 auto;*/
+  margin-left: auto; /*Empuja lo más que pueda el elemento a la izq. según el espacio que tiene*/
 }
 
 .footer__column_content_social {
-  margin: 0 0 0 40px;
+  /*Deja un margen izquierdo entre la columna de redes sociales y la de horarios*/
+  margin-left: 80px;
 }
 
 .footer__logo {
@@ -366,13 +368,13 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
-  display: flex;
+  /*display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 16px;*/ /*Es la primera forma como lo intenté, al hacerlo así, estaba usando innecesariamente diplay y flex-direction*/
 }
 
 .footer__list-item {
-  list-style-type: none;
+  margin-bottom: 16px;
 }
 
 .footer__column-link {
@@ -380,6 +382,7 @@
   text-decoration: none;
   display: flex;
   gap: 10px;
+  align-items: center;
 }
 
 .footer__social-icon {
@@ -388,6 +391,5 @@
 }
 
 .footer__copyright {
-  padding: 100px 0 60px 80px;
-  margin: 0;
+  margin: 100px 0 0 0;
 }
